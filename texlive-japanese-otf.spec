@@ -1,12 +1,12 @@
-# revision 24540
+# revision 24627
 # category Package
 # catalog-ctan /language/japanese/japanese-otf
-# catalog-date 2011-11-07 16:58:40 +0100
+# catalog-date 2011-11-10 07:28:18 +0100
 # catalog-license other-free
 # catalog-version 1
 Name:		texlive-japanese-otf
 Version:	1
-Release:	1
+Release:	2
 Summary:	Advanced font selection for platex and its friends
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/language/japanese/japanese-otf
@@ -25,7 +25,7 @@ Conflicts:	texlive-source <= 20110705-3
 
 %description
 The package contains pLaTeX support files and virtual fonts for
-supporting a wide variety of fonts in the pLaTeX format of pTeX
+supporting a wide variety of fonts in LaTeX using the pTeX
 engine.
 
 %pre
