@@ -1,4 +1,4 @@
-# revision 24627
+# revision 24689
 # category Package
 # catalog-ctan /language/japanese/japanese-otf
 # catalog-date 2011-11-10 07:28:18 +0100
@@ -6,7 +6,7 @@
 # catalog-version 1
 Name:		texlive-japanese-otf
 Version:	1
-Release:	2
+Release:	3
 Summary:	Advanced font selection for platex and its friends
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/language/japanese/japanese-otf
@@ -19,9 +19,6 @@ BuildRequires:	texlive-tlpkg
 Requires(pre):	texlive-tlpkg
 Requires(post):	texlive-kpathsea
 Requires(post):	texlive-tetex
-Conflicts:	texlive-texmf <= 20110705-3
-Conflicts:	texlive-doc <= 20110705-3
-Conflicts:	texlive-source <= 20110705-3
 
 %description
 The package contains pLaTeX support files and virtual fonts for
@@ -29,23 +26,19 @@ supporting a wide variety of fonts in LaTeX using the pTeX
 engine.
 
 %pre
-    %_texmf_updmap_pre
-    %_texmf_mktexlsr_pre
+    %{_sbindir}/texlive.post
 
 %post
-    %_texmf_mktexlsr_post
-    %_texmf_updmap_post
+    %{_sbindir}/texlive.post
 
 %preun
     if [ $1 -eq 0 ]; then
-	%_texmf_updmap_pre
-	%_texmf_mktexlsr_pre
+	%{_sbindir}/texlive.post
     fi
 
 %postun
     if [ $1 -eq 0 ]; then
-	%_texmf_mktexlsr_post
-	%_texmf_updmap_post
+	%{_sbindir}/texlive.post
     fi
 
 #-----------------------------------------------------------------------
