@@ -25,16 +25,8 @@ The package contains pLaTeX support files and virtual fonts for
 supporting a wide variety of fonts in LaTeX using the pTeX
 engine.
 
-%pre
-    %{_sbindir}/texlive.post
-
 %post
     %{_sbindir}/texlive.post
-
-%preun
-    if [ $1 -eq 0 ]; then
-	%{_sbindir}/texlive.post
-    fi
 
 %postun
     if [ $1 -eq 0 ]; then
@@ -2019,7 +2011,6 @@ engine.
 %doc %{_texmfdistdir}/source/fonts/japanese-otf/test/otftest.tex
 %doc %{_texmfdistdir}/source/fonts/japanese-otf/test/pkanatest.tex
 %doc %{_texmfdistdir}/source/fonts/japanese-otf/test/pkanatest2.tex
-%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -2030,8 +2021,6 @@ engine.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar fonts tex doc source %{buildroot}%{_texmfdistdir}
-mkdir -p %{buildroot}%{_tlpkgobjdir}
-cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
 mkdir -p %{buildroot}%{_texmf_updmap_d}
 cat > %{buildroot}%{_texmf_updmap_d}/japanese-otf <<EOF
 KanjiMap otf-@kanjiEmbed@.map
