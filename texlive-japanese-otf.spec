@@ -1,12 +1,12 @@
-# revision 24945
+# revision 25268
 # category Package
 # catalog-ctan /language/japanese/japanese-otf
-# catalog-date 2011-11-10 07:28:18 +0100
+# catalog-date 2012-02-02 11:00:36 +0100
 # catalog-license other-free
 # catalog-version 1
 Name:		texlive-japanese-otf
 Version:	1
-Release:	6
+Release:	7
 Summary:	Advanced font selection for platex and its friends
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/language/japanese/japanese-otf
@@ -36,9 +36,6 @@ engine.
 #-----------------------------------------------------------------------
 %files
 %{_texmfdistdir}/fonts/map/dvipdfmx/japanese-otf/otf-cktx.map
-%{_texmfdistdir}/fonts/map/dvipdfmx/japanese-otf/otf-hiragino.map
-%{_texmfdistdir}/fonts/map/dvipdfmx/japanese-otf/otf-kozuka.map
-%{_texmfdistdir}/fonts/map/dvipdfmx/japanese-otf/otf-morisawa.map
 %{_texmfdistdir}/fonts/map/dvipdfmx/japanese-otf/otf-noEmbed.map
 %{_texmfdistdir}/fonts/ofm/public/japanese-otf/hirakaku-w3-h.ofm
 %{_texmfdistdir}/fonts/ofm/public/japanese-otf/hirakaku-w3-v.ofm
@@ -1973,6 +1970,7 @@ engine.
 %{_texmfdistdir}/tex/platex/japanese-otf/ajmacros.sty
 %{_texmfdistdir}/tex/platex/japanese-otf/mlcid.sty
 %{_texmfdistdir}/tex/platex/japanese-otf/mlutf.sty
+%{_texmfdistdir}/tex/platex/japanese-otf/otf-hangul.dfu
 %{_texmfdistdir}/tex/platex/japanese-otf/otf.sty
 %{_texmfdistdir}/tex/platex/japanese-otf/redeffont.sty
 %_texmf_updmap_d/japanese-otf
@@ -2001,13 +1999,9 @@ engine.
 %doc %{_texmfdistdir}/source/fonts/japanese-otf/script/mktfm.pl
 %doc %{_texmfdistdir}/source/fonts/japanese-otf/script/mkutfvf.pl
 %doc %{_texmfdistdir}/source/fonts/japanese-otf/script/mkvpkana.pl
-%doc %{_texmfdistdir}/source/fonts/japanese-otf/sty/ajmacros.sty
-%doc %{_texmfdistdir}/source/fonts/japanese-otf/sty/mlcid.sty
-%doc %{_texmfdistdir}/source/fonts/japanese-otf/sty/mlutf.sty
-%doc %{_texmfdistdir}/source/fonts/japanese-otf/sty/otf.sty
-%doc %{_texmfdistdir}/source/fonts/japanese-otf/sty/redeffont.sty
 %doc %{_texmfdistdir}/source/fonts/japanese-otf/test/brsgtest.tex
 %doc %{_texmfdistdir}/source/fonts/japanese-otf/test/jis2004.tex
+%doc %{_texmfdistdir}/source/fonts/japanese-otf/test/koreanexample.tex
 %doc %{_texmfdistdir}/source/fonts/japanese-otf/test/otftest.tex
 %doc %{_texmfdistdir}/source/fonts/japanese-otf/test/pkanatest.tex
 %doc %{_texmfdistdir}/source/fonts/japanese-otf/test/pkanatest2.tex
