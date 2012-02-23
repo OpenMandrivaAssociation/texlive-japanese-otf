@@ -1,12 +1,13 @@
-# revision 25268
+# revision 25453
 # category Package
 # catalog-ctan /language/japanese/japanese-otf
-# catalog-date 2012-02-02 11:00:36 +0100
+# catalog-date 2012-02-06 12:44:52 +0100
 # catalog-license other-free
-# catalog-version 1
+# catalog-version v1.7b4
 Name:		texlive-japanese-otf
-Version:	1
-Release:	7
+Epoch:		1
+Version:	v1.7b4
+Release:	1
 Summary:	Advanced font selection for platex and its friends
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/language/japanese/japanese-otf
@@ -1969,9 +1970,7 @@ engine.
 %{_texmfdistdir}/fonts/vf/public/japanese-otf/utftmrf-v.vf
 %{_texmfdistdir}/tex/platex/japanese-otf/ajmacros.sty
 %{_texmfdistdir}/tex/platex/japanese-otf/mlcid.sty
-%{_texmfdistdir}/tex/platex/japanese-otf/mlutf.sty
 %{_texmfdistdir}/tex/platex/japanese-otf/otf-hangul.dfu
-%{_texmfdistdir}/tex/platex/japanese-otf/otf.sty
 %{_texmfdistdir}/tex/platex/japanese-otf/redeffont.sty
 %_texmf_updmap_d/japanese-otf
 %doc %{_texmfdistdir}/doc/fonts/japanese-otf/COPYRIGHT
