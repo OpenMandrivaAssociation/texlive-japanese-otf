@@ -1,12 +1,12 @@
-# revision 25453
+# revision 25939
 # category Package
 # catalog-ctan /language/japanese/japanese-otf
-# catalog-date 2012-02-06 12:44:52 +0100
+# catalog-date 2012-04-11 09:22:31 +0200
 # catalog-license other-free
-# catalog-version v1.7b4
+# catalog-version v1.7b5
 Name:		texlive-japanese-otf
 Epoch:		1
-Version:	v1.7b4
+Version:	v1.7b5
 Release:	1
 Summary:	Advanced font selection for platex and its friends
 Group:		Publishing
@@ -1976,6 +1976,12 @@ engine.
 %doc %{_texmfdistdir}/doc/fonts/japanese-otf/COPYRIGHT
 %doc %{_texmfdistdir}/doc/fonts/japanese-otf/readme.en.txt
 %doc %{_texmfdistdir}/doc/fonts/japanese-otf/readme.txt
+%doc %{_texmfdistdir}/doc/fonts/japanese-otf/test/brsgtest.tex
+%doc %{_texmfdistdir}/doc/fonts/japanese-otf/test/jis2004.tex
+%doc %{_texmfdistdir}/doc/fonts/japanese-otf/test/koreanexample.tex
+%doc %{_texmfdistdir}/doc/fonts/japanese-otf/test/otftest.tex
+%doc %{_texmfdistdir}/doc/fonts/japanese-otf/test/pkanatest.tex
+%doc %{_texmfdistdir}/doc/fonts/japanese-otf/test/pkanatest2.tex
 #- source
 %doc %{_texmfdistdir}/source/fonts/japanese-otf/basepl/base-h.pl
 %doc %{_texmfdistdir}/source/fonts/japanese-otf/basepl/base-v.pl
@@ -1998,12 +2004,6 @@ engine.
 %doc %{_texmfdistdir}/source/fonts/japanese-otf/script/mktfm.pl
 %doc %{_texmfdistdir}/source/fonts/japanese-otf/script/mkutfvf.pl
 %doc %{_texmfdistdir}/source/fonts/japanese-otf/script/mkvpkana.pl
-%doc %{_texmfdistdir}/source/fonts/japanese-otf/test/brsgtest.tex
-%doc %{_texmfdistdir}/source/fonts/japanese-otf/test/jis2004.tex
-%doc %{_texmfdistdir}/source/fonts/japanese-otf/test/koreanexample.tex
-%doc %{_texmfdistdir}/source/fonts/japanese-otf/test/otftest.tex
-%doc %{_texmfdistdir}/source/fonts/japanese-otf/test/pkanatest.tex
-%doc %{_texmfdistdir}/source/fonts/japanese-otf/test/pkanatest2.tex
 
 #-----------------------------------------------------------------------
 %prep
