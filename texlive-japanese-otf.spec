@@ -2019,3 +2019,43 @@ cat > %{buildroot}%{_texmf_updmap_d}/japanese-otf <<EOF
 KanjiMap otf-@kanjiEmbed@.map
 KanjiMap otf-cktx.map
 EOF
+
+
+%changelog
+* Mon Jun 11 2012 Paulo Andrade <pcpa@mandriva.com.br> 1:v1.7b5-1
++ Revision: 804856
+- Update to latest release.
+
+* Thu Feb 23 2012 Paulo Andrade <pcpa@mandriva.com.br> 1:v1.7b4-1
++ Revision: 779545
+- Update to latest release.
+
+* Wed Feb 08 2012 Paulo Andrade <pcpa@mandriva.com.br> 1-7
++ Revision: 772072
+- Update to latest release.
+
+* Mon Jan 09 2012 Paulo Andrade <pcpa@mandriva.com.br> 1-6
++ Revision: 758919
+- Update to latest upstream release
+
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 1-5
++ Revision: 752895
+- Rebuild to reduce used resources
+
+* Mon Dec 26 2011 Paulo Andrade <pcpa@mandriva.com.br> 1-4
++ Revision: 745257
+- texlive-japanese-otf
+
+* Fri Dec 09 2011 Paulo Andrade <pcpa@mandriva.com.br> 1-3
++ Revision: 739794
+- texlive-japanese-otf
+
+* Tue Nov 22 2011 Paulo Andrade <pcpa@mandriva.com.br> 1-2
++ Revision: 732522
+- texlive-japanese-otf
+
+* Thu Nov 10 2011 Paulo Andrade <pcpa@mandriva.com.br> 1-1
++ Revision: 729669
+- texlive-japanese-otf
+- texlive-japanese-otf
+
