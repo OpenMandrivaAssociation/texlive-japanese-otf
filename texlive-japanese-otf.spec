@@ -1,12 +1,12 @@
-# revision 25939
+# revision 29929
 # category Package
 # catalog-ctan /language/japanese/japanese-otf
-# catalog-date 2012-04-11 09:22:31 +0200
+# catalog-date 2013-04-14 10:19:50 +0200
 # catalog-license other-free
-# catalog-version v1.7b5
+# catalog-version v1.7b5.1
 Name:		texlive-japanese-otf
 Epoch:		1
-Version:	v1.7b5
+Version:	v1.7b5.1
 Release:	1
 Summary:	Advanced font selection for platex and its friends
 Group:		Publishing
@@ -37,7 +37,6 @@ engine.
 #-----------------------------------------------------------------------
 %files
 %{_texmfdistdir}/fonts/map/dvipdfmx/japanese-otf/otf-cktx.map
-%{_texmfdistdir}/fonts/map/dvipdfmx/japanese-otf/otf-noEmbed.map
 %{_texmfdistdir}/fonts/ofm/public/japanese-otf/hirakaku-w3-h.ofm
 %{_texmfdistdir}/fonts/ofm/public/japanese-otf/hirakaku-w3-v.ofm
 %{_texmfdistdir}/fonts/ofm/public/japanese-otf/hirakaku-w6-h.ofm
@@ -50,6 +49,8 @@ engine.
 %{_texmfdistdir}/fonts/ofm/public/japanese-otf/hiramin-w6-v.ofm
 %{_texmfdistdir}/fonts/ofm/public/japanese-otf/otf-cjgb-h.ofm
 %{_texmfdistdir}/fonts/ofm/public/japanese-otf/otf-cjgb-v.ofm
+%{_texmfdistdir}/fonts/ofm/public/japanese-otf/otf-cjge-h.ofm
+%{_texmfdistdir}/fonts/ofm/public/japanese-otf/otf-cjge-v.ofm
 %{_texmfdistdir}/fonts/ofm/public/japanese-otf/otf-cjgr-h.ofm
 %{_texmfdistdir}/fonts/ofm/public/japanese-otf/otf-cjgr-v.ofm
 %{_texmfdistdir}/fonts/ofm/public/japanese-otf/otf-cjmb-h.ofm
@@ -64,6 +65,10 @@ engine.
 %{_texmfdistdir}/fonts/tfm/public/japanese-otf/brsgexpgothb-v.tfm
 %{_texmfdistdir}/fonts/tfm/public/japanese-otf/brsgexpgothbn-h.tfm
 %{_texmfdistdir}/fonts/tfm/public/japanese-otf/brsgexpgothbn-v.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf/brsgexpgotheb-h.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf/brsgexpgotheb-v.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf/brsgexpgothebn-h.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf/brsgexpgothebn-v.tfm
 %{_texmfdistdir}/fonts/tfm/public/japanese-otf/brsgexpgothr-h.tfm
 %{_texmfdistdir}/fonts/tfm/public/japanese-otf/brsgexpgothr-v.tfm
 %{_texmfdistdir}/fonts/tfm/public/japanese-otf/brsgexpgothrn-h.tfm
@@ -90,6 +95,8 @@ engine.
 %{_texmfdistdir}/fonts/tfm/public/japanese-otf/brsgnmlgothbn-v.tfm
 %{_texmfdistdir}/fonts/tfm/public/japanese-otf/brsgnmlgotheb-h.tfm
 %{_texmfdistdir}/fonts/tfm/public/japanese-otf/brsgnmlgotheb-v.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf/brsgnmlgothebn-h.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf/brsgnmlgothebn-v.tfm
 %{_texmfdistdir}/fonts/tfm/public/japanese-otf/brsgnmlgothr-h.tfm
 %{_texmfdistdir}/fonts/tfm/public/japanese-otf/brsgnmlgothr-v.tfm
 %{_texmfdistdir}/fonts/tfm/public/japanese-otf/brsgnmlgothrn-h.tfm
@@ -154,6 +161,18 @@ engine.
 %{_texmfdistdir}/fonts/tfm/public/japanese-otf/cidjgb4-v.tfm
 %{_texmfdistdir}/fonts/tfm/public/japanese-otf/cidjgb5-h.tfm
 %{_texmfdistdir}/fonts/tfm/public/japanese-otf/cidjgb5-v.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf/cidjge0-h.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf/cidjge0-v.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf/cidjge1-h.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf/cidjge1-v.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf/cidjge2-h.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf/cidjge2-v.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf/cidjge3-h.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf/cidjge3-v.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf/cidjge4-h.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf/cidjge4-v.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf/cidjge5-h.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf/cidjge5-v.tfm
 %{_texmfdistdir}/fonts/tfm/public/japanese-otf/cidjgr0-h.tfm
 %{_texmfdistdir}/fonts/tfm/public/japanese-otf/cidjgr0-v.tfm
 %{_texmfdistdir}/fonts/tfm/public/japanese-otf/cidjgr1-h.tfm
@@ -258,6 +277,10 @@ engine.
 %{_texmfdistdir}/fonts/tfm/public/japanese-otf/expgothb-v.tfm
 %{_texmfdistdir}/fonts/tfm/public/japanese-otf/expgothbn-h.tfm
 %{_texmfdistdir}/fonts/tfm/public/japanese-otf/expgothbn-v.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf/expgotheb-h.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf/expgotheb-v.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf/expgothebn-h.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf/expgothebn-v.tfm
 %{_texmfdistdir}/fonts/tfm/public/japanese-otf/expgothr-h.tfm
 %{_texmfdistdir}/fonts/tfm/public/japanese-otf/expgothr-v.tfm
 %{_texmfdistdir}/fonts/tfm/public/japanese-otf/expgothrn-h.tfm
@@ -284,6 +307,8 @@ engine.
 %{_texmfdistdir}/fonts/tfm/public/japanese-otf/hgothbn-v.tfm
 %{_texmfdistdir}/fonts/tfm/public/japanese-otf/hgotheb-h.tfm
 %{_texmfdistdir}/fonts/tfm/public/japanese-otf/hgotheb-v.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf/hgothebn-h.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf/hgothebn-v.tfm
 %{_texmfdistdir}/fonts/tfm/public/japanese-otf/hgothr-h.tfm
 %{_texmfdistdir}/fonts/tfm/public/japanese-otf/hgothr-v.tfm
 %{_texmfdistdir}/fonts/tfm/public/japanese-otf/hgothrn-h.tfm
@@ -320,6 +345,8 @@ engine.
 %{_texmfdistdir}/fonts/tfm/public/japanese-otf/nmlgothbn-v.tfm
 %{_texmfdistdir}/fonts/tfm/public/japanese-otf/nmlgotheb-h.tfm
 %{_texmfdistdir}/fonts/tfm/public/japanese-otf/nmlgotheb-v.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf/nmlgothebn-h.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf/nmlgothebn-v.tfm
 %{_texmfdistdir}/fonts/tfm/public/japanese-otf/nmlgothr-h.tfm
 %{_texmfdistdir}/fonts/tfm/public/japanese-otf/nmlgothr-v.tfm
 %{_texmfdistdir}/fonts/tfm/public/japanese-otf/nmlgothrn-h.tfm
@@ -346,6 +373,8 @@ engine.
 %{_texmfdistdir}/fonts/tfm/public/japanese-otf/otf-ccmr-v.tfm
 %{_texmfdistdir}/fonts/tfm/public/japanese-otf/otf-cjgb-h.tfm
 %{_texmfdistdir}/fonts/tfm/public/japanese-otf/otf-cjgb-v.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf/otf-cjge-h.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf/otf-cjge-v.tfm
 %{_texmfdistdir}/fonts/tfm/public/japanese-otf/otf-cjgr-h.tfm
 %{_texmfdistdir}/fonts/tfm/public/japanese-otf/otf-cjgr-v.tfm
 %{_texmfdistdir}/fonts/tfm/public/japanese-otf/otf-cjmb-h.tfm
@@ -372,6 +401,10 @@ engine.
 %{_texmfdistdir}/fonts/tfm/public/japanese-otf/otf-ujgb-v.tfm
 %{_texmfdistdir}/fonts/tfm/public/japanese-otf/otf-ujgbn-h.tfm
 %{_texmfdistdir}/fonts/tfm/public/japanese-otf/otf-ujgbn-v.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf/otf-ujge-h.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf/otf-ujge-v.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf/otf-ujgen-h.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf/otf-ujgen-v.tfm
 %{_texmfdistdir}/fonts/tfm/public/japanese-otf/otf-ujgr-h.tfm
 %{_texmfdistdir}/fonts/tfm/public/japanese-otf/otf-ujgr-v.tfm
 %{_texmfdistdir}/fonts/tfm/public/japanese-otf/otf-ujgrn-h.tfm
@@ -412,6 +445,8 @@ engine.
 %{_texmfdistdir}/fonts/tfm/public/japanese-otf/phiraminw6-v.tfm
 %{_texmfdistdir}/fonts/tfm/public/japanese-otf/rubygothb-h.tfm
 %{_texmfdistdir}/fonts/tfm/public/japanese-otf/rubygothb-v.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf/rubygotheb-h.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf/rubygotheb-v.tfm
 %{_texmfdistdir}/fonts/tfm/public/japanese-otf/rubygothr-h.tfm
 %{_texmfdistdir}/fonts/tfm/public/japanese-otf/rubygothr-v.tfm
 %{_texmfdistdir}/fonts/tfm/public/japanese-otf/rubymgothr-h.tfm
@@ -582,6 +617,70 @@ engine.
 %{_texmfdistdir}/fonts/tfm/public/japanese-otf/utfjgbne-v.tfm
 %{_texmfdistdir}/fonts/tfm/public/japanese-otf/utfjgbnf-h.tfm
 %{_texmfdistdir}/fonts/tfm/public/japanese-otf/utfjgbnf-v.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf/utfjge0-h.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf/utfjge0-v.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf/utfjge1-h.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf/utfjge1-v.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf/utfjge2-h.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf/utfjge2-v.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf/utfjge3-h.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf/utfjge3-v.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf/utfjge4-h.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf/utfjge4-v.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf/utfjge5-h.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf/utfjge5-v.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf/utfjge6-h.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf/utfjge6-v.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf/utfjge7-h.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf/utfjge7-v.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf/utfjge8-h.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf/utfjge8-v.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf/utfjge9-h.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf/utfjge9-v.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf/utfjgea-h.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf/utfjgea-v.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf/utfjgeb-h.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf/utfjgeb-v.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf/utfjgec-h.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf/utfjgec-v.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf/utfjged-h.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf/utfjged-v.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf/utfjgee-h.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf/utfjgee-v.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf/utfjgef-h.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf/utfjgef-v.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf/utfjgen0-h.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf/utfjgen0-v.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf/utfjgen1-h.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf/utfjgen1-v.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf/utfjgen2-h.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf/utfjgen2-v.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf/utfjgen3-h.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf/utfjgen3-v.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf/utfjgen4-h.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf/utfjgen4-v.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf/utfjgen5-h.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf/utfjgen5-v.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf/utfjgen6-h.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf/utfjgen6-v.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf/utfjgen7-h.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf/utfjgen7-v.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf/utfjgen8-h.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf/utfjgen8-v.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf/utfjgen9-h.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf/utfjgen9-v.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf/utfjgena-h.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf/utfjgena-v.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf/utfjgenb-h.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf/utfjgenb-v.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf/utfjgenc-h.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf/utfjgenc-v.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf/utfjgend-h.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf/utfjgend-v.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf/utfjgene-h.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf/utfjgene-v.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf/utfjgenf-h.tfm
+%{_texmfdistdir}/fonts/tfm/public/japanese-otf/utfjgenf-v.tfm
 %{_texmfdistdir}/fonts/tfm/public/japanese-otf/utfjgr0-h.tfm
 %{_texmfdistdir}/fonts/tfm/public/japanese-otf/utfjgr0-v.tfm
 %{_texmfdistdir}/fonts/tfm/public/japanese-otf/utfjgr1-h.tfm
@@ -1066,6 +1165,10 @@ engine.
 %{_texmfdistdir}/fonts/vf/public/japanese-otf/brsgexpgothb-v.vf
 %{_texmfdistdir}/fonts/vf/public/japanese-otf/brsgexpgothbn-h.vf
 %{_texmfdistdir}/fonts/vf/public/japanese-otf/brsgexpgothbn-v.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf/brsgexpgotheb-h.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf/brsgexpgotheb-v.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf/brsgexpgothebn-h.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf/brsgexpgothebn-v.vf
 %{_texmfdistdir}/fonts/vf/public/japanese-otf/brsgexpgothr-h.vf
 %{_texmfdistdir}/fonts/vf/public/japanese-otf/brsgexpgothr-v.vf
 %{_texmfdistdir}/fonts/vf/public/japanese-otf/brsgexpgothrn-h.vf
@@ -1092,6 +1195,8 @@ engine.
 %{_texmfdistdir}/fonts/vf/public/japanese-otf/brsgnmlgothbn-v.vf
 %{_texmfdistdir}/fonts/vf/public/japanese-otf/brsgnmlgotheb-h.vf
 %{_texmfdistdir}/fonts/vf/public/japanese-otf/brsgnmlgotheb-v.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf/brsgnmlgothebn-h.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf/brsgnmlgothebn-v.vf
 %{_texmfdistdir}/fonts/vf/public/japanese-otf/brsgnmlgothr-h.vf
 %{_texmfdistdir}/fonts/vf/public/japanese-otf/brsgnmlgothr-v.vf
 %{_texmfdistdir}/fonts/vf/public/japanese-otf/brsgnmlgothrn-h.vf
@@ -1156,6 +1261,18 @@ engine.
 %{_texmfdistdir}/fonts/vf/public/japanese-otf/cidjgb4-v.vf
 %{_texmfdistdir}/fonts/vf/public/japanese-otf/cidjgb5-h.vf
 %{_texmfdistdir}/fonts/vf/public/japanese-otf/cidjgb5-v.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf/cidjge0-h.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf/cidjge0-v.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf/cidjge1-h.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf/cidjge1-v.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf/cidjge2-h.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf/cidjge2-v.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf/cidjge3-h.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf/cidjge3-v.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf/cidjge4-h.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf/cidjge4-v.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf/cidjge5-h.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf/cidjge5-v.vf
 %{_texmfdistdir}/fonts/vf/public/japanese-otf/cidjgr0-h.vf
 %{_texmfdistdir}/fonts/vf/public/japanese-otf/cidjgr0-v.vf
 %{_texmfdistdir}/fonts/vf/public/japanese-otf/cidjgr1-h.vf
@@ -1260,6 +1377,10 @@ engine.
 %{_texmfdistdir}/fonts/vf/public/japanese-otf/expgothb-v.vf
 %{_texmfdistdir}/fonts/vf/public/japanese-otf/expgothbn-h.vf
 %{_texmfdistdir}/fonts/vf/public/japanese-otf/expgothbn-v.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf/expgotheb-h.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf/expgotheb-v.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf/expgothebn-h.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf/expgothebn-v.vf
 %{_texmfdistdir}/fonts/vf/public/japanese-otf/expgothr-h.vf
 %{_texmfdistdir}/fonts/vf/public/japanese-otf/expgothr-v.vf
 %{_texmfdistdir}/fonts/vf/public/japanese-otf/expgothrn-h.vf
@@ -1286,6 +1407,8 @@ engine.
 %{_texmfdistdir}/fonts/vf/public/japanese-otf/nmlgothbn-v.vf
 %{_texmfdistdir}/fonts/vf/public/japanese-otf/nmlgotheb-h.vf
 %{_texmfdistdir}/fonts/vf/public/japanese-otf/nmlgotheb-v.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf/nmlgothebn-h.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf/nmlgothebn-v.vf
 %{_texmfdistdir}/fonts/vf/public/japanese-otf/nmlgothr-h.vf
 %{_texmfdistdir}/fonts/vf/public/japanese-otf/nmlgothr-v.vf
 %{_texmfdistdir}/fonts/vf/public/japanese-otf/nmlgothrn-h.vf
@@ -1318,6 +1441,8 @@ engine.
 %{_texmfdistdir}/fonts/vf/public/japanese-otf/phiraminw6-v.vf
 %{_texmfdistdir}/fonts/vf/public/japanese-otf/rubygothb-h.vf
 %{_texmfdistdir}/fonts/vf/public/japanese-otf/rubygothb-v.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf/rubygotheb-h.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf/rubygotheb-v.vf
 %{_texmfdistdir}/fonts/vf/public/japanese-otf/rubygothr-h.vf
 %{_texmfdistdir}/fonts/vf/public/japanese-otf/rubygothr-v.vf
 %{_texmfdistdir}/fonts/vf/public/japanese-otf/rubymgothr-h.vf
@@ -1488,6 +1613,70 @@ engine.
 %{_texmfdistdir}/fonts/vf/public/japanese-otf/utfjgbne-v.vf
 %{_texmfdistdir}/fonts/vf/public/japanese-otf/utfjgbnf-h.vf
 %{_texmfdistdir}/fonts/vf/public/japanese-otf/utfjgbnf-v.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf/utfjge0-h.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf/utfjge0-v.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf/utfjge1-h.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf/utfjge1-v.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf/utfjge2-h.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf/utfjge2-v.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf/utfjge3-h.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf/utfjge3-v.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf/utfjge4-h.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf/utfjge4-v.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf/utfjge5-h.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf/utfjge5-v.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf/utfjge6-h.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf/utfjge6-v.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf/utfjge7-h.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf/utfjge7-v.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf/utfjge8-h.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf/utfjge8-v.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf/utfjge9-h.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf/utfjge9-v.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf/utfjgea-h.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf/utfjgea-v.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf/utfjgeb-h.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf/utfjgeb-v.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf/utfjgec-h.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf/utfjgec-v.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf/utfjged-h.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf/utfjged-v.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf/utfjgee-h.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf/utfjgee-v.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf/utfjgef-h.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf/utfjgef-v.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf/utfjgen0-h.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf/utfjgen0-v.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf/utfjgen1-h.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf/utfjgen1-v.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf/utfjgen2-h.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf/utfjgen2-v.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf/utfjgen3-h.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf/utfjgen3-v.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf/utfjgen4-h.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf/utfjgen4-v.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf/utfjgen5-h.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf/utfjgen5-v.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf/utfjgen6-h.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf/utfjgen6-v.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf/utfjgen7-h.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf/utfjgen7-v.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf/utfjgen8-h.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf/utfjgen8-v.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf/utfjgen9-h.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf/utfjgen9-v.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf/utfjgena-h.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf/utfjgena-v.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf/utfjgenb-h.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf/utfjgenb-v.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf/utfjgenc-h.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf/utfjgenc-v.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf/utfjgend-h.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf/utfjgend-v.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf/utfjgene-h.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf/utfjgene-v.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf/utfjgenf-h.vf
+%{_texmfdistdir}/fonts/vf/public/japanese-otf/utfjgenf-v.vf
 %{_texmfdistdir}/fonts/vf/public/japanese-otf/utfjgr0-h.vf
 %{_texmfdistdir}/fonts/vf/public/japanese-otf/utfjgr0-v.vf
 %{_texmfdistdir}/fonts/vf/public/japanese-otf/utfjgr1-h.vf
@@ -1974,6 +2163,7 @@ engine.
 %{_texmfdistdir}/tex/platex/japanese-otf/redeffont.sty
 %_texmf_updmap_d/japanese-otf
 %doc %{_texmfdistdir}/doc/fonts/japanese-otf/COPYRIGHT
+%doc %{_texmfdistdir}/doc/fonts/japanese-otf/otf-script-gteb.diff
 %doc %{_texmfdistdir}/doc/fonts/japanese-otf/readme.en.txt
 %doc %{_texmfdistdir}/doc/fonts/japanese-otf/readme.txt
 %doc %{_texmfdistdir}/doc/fonts/japanese-otf/test/brsgtest.tex
@@ -2019,43 +2209,3 @@ cat > %{buildroot}%{_texmf_updmap_d}/japanese-otf <<EOF
 KanjiMap otf-@kanjiEmbed@.map
 KanjiMap otf-cktx.map
 EOF
-
-
-%changelog
-* Mon Jun 11 2012 Paulo Andrade <pcpa@mandriva.com.br> 1:v1.7b5-1
-+ Revision: 804856
-- Update to latest release.
-
-* Thu Feb 23 2012 Paulo Andrade <pcpa@mandriva.com.br> 1:v1.7b4-1
-+ Revision: 779545
-- Update to latest release.
-
-* Wed Feb 08 2012 Paulo Andrade <pcpa@mandriva.com.br> 1-7
-+ Revision: 772072
-- Update to latest release.
-
-* Mon Jan 09 2012 Paulo Andrade <pcpa@mandriva.com.br> 1-6
-+ Revision: 758919
-- Update to latest upstream release
-
-* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 1-5
-+ Revision: 752895
-- Rebuild to reduce used resources
-
-* Mon Dec 26 2011 Paulo Andrade <pcpa@mandriva.com.br> 1-4
-+ Revision: 745257
-- texlive-japanese-otf
-
-* Fri Dec 09 2011 Paulo Andrade <pcpa@mandriva.com.br> 1-3
-+ Revision: 739794
-- texlive-japanese-otf
-
-* Tue Nov 22 2011 Paulo Andrade <pcpa@mandriva.com.br> 1-2
-+ Revision: 732522
-- texlive-japanese-otf
-
-* Thu Nov 10 2011 Paulo Andrade <pcpa@mandriva.com.br> 1-1
-+ Revision: 729669
-- texlive-japanese-otf
-- texlive-japanese-otf
-
