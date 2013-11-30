@@ -1,12 +1,12 @@
-# revision 29929
+# revision 32233
 # category Package
 # catalog-ctan /language/japanese/japanese-otf
-# catalog-date 2013-04-14 10:19:50 +0200
+# catalog-date 2013-11-24 09:58:02 +0100
 # catalog-license other-free
-# catalog-version v1.7b5.1
+# catalog-version v1.7b6
 Name:		texlive-japanese-otf
 Epoch:		1
-Version:	v1.7b5.1
+Version:	v1.7b6
 Release:	1
 Summary:	Advanced font selection for platex and its friends
 Group:		Publishing
@@ -2163,6 +2163,7 @@ engine.
 %{_texmfdistdir}/tex/platex/japanese-otf/redeffont.sty
 %_texmf_updmap_d/japanese-otf
 %doc %{_texmfdistdir}/doc/fonts/japanese-otf/COPYRIGHT
+%doc %{_texmfdistdir}/doc/fonts/japanese-otf/fontmap.zip
 %doc %{_texmfdistdir}/doc/fonts/japanese-otf/otf-script-gteb.diff
 %doc %{_texmfdistdir}/doc/fonts/japanese-otf/readme.en.txt
 %doc %{_texmfdistdir}/doc/fonts/japanese-otf/readme.txt
