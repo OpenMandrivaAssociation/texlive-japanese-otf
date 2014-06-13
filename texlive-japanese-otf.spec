@@ -7,7 +7,7 @@
 Name:		texlive-japanese-otf
 Epoch:		1
 Version:	v1.7b6
-Release:	5
+Release:	6
 Summary:	Advanced font selection for platex and its friends
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/language/japanese/japanese-otf
