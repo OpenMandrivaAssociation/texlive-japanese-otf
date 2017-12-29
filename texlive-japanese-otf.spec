@@ -1,13 +1,7 @@
-# revision 32233
-# category Package
-# catalog-ctan /language/japanese/japanese-otf
-# catalog-date 2013-11-24 09:58:02 +0100
-# catalog-license other-free
-# catalog-version v1.7b6
 Name:		texlive-japanese-otf
 Epoch:		1
-Version:	v1.7b6
-Release:	9
+Version:	1.7b6
+Release:	1
 Summary:	Advanced font selection for platex and its friends
 Group:		Publishing
 URL:		http://www.ctan.org/tex-archive/language/japanese/japanese-otf
