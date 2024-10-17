@@ -4,7 +4,7 @@ Version:	64072
 Release:	2
 Summary:	Advanced font selection for platex and its friends
 Group:		Publishing
-URL:		http://www.ctan.org/tex-archive/language/japanese/japanese-otf
+URL:		https://www.ctan.org/tex-archive/language/japanese/japanese-otf
 License:	OTHER-FREE
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/japanese-otf.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/japanese-otf.doc.r%{version}.tar.xz
