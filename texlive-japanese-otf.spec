@@ -13,9 +13,21 @@ Source1:	https://mirrors.ctan.org/systems/texlive/tlnet/archive/japanese-otf.doc
 Source2:	https://mirrors.ctan.org/systems/texlive/tlnet/archive/japanese-otf.source.r%{tl_revision}.tar.xz
 BuildArch:	noarch
 BuildSystem:	texlive
-Provides:	texlive(%{tl_name}) = %{tl_revision}
+Requires:	texlive-tlpkg
+Provides:	texlive(%{tl_name}) = %{version}
 
 %description
 The package contains pLaTeX support files and virtual fonts for
 supporting a wide variety of fonts in LaTeX using the pTeX engine.
 
+
+%install -a
+mkdir -p %{buildroot}%{_texmf_updmap_d}
+cat > %{buildroot}%{_texmf_updmap_d}/%{tl_name} <<'TL_DROPIN_EOF'
+# from japanese-otf:
+KanjiMap otf-@jaEmbed@.map
+KanjiMap otf-ko-@koEmbed@.map
+KanjiMap otf-sc-@scEmbed@.map
+KanjiMap otf-tc-@tcEmbed@.map
+KanjiMap otf-up-@jaEmbed@.map
+TL_DROPIN_EOF
